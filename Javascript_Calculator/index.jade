@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title Javascript Calculator
+    link(rel="stylesheet" type="text/css" href="cal.css")
+    script(src="http://cdn.bootcss.com/jquery/2.2.0/jquery.min.js")
+    script(src="cal.js")
+  body
+    .calculator
+      p#title Javascript
+      p#subtitle ELECTRONIC CALCULATOR
+      input(type="text" disabled).display
+
+      .row
+        button.ctrl AC
+        button.ctrl CE
+        button %
+        button ÷
+      .row
+        button 7
+        button 8
+        button 9
+        button X
+      .row
+        button 4
+        button 5
+        button 6
+        button -
+      .row
+        button 1
+        button 2
+        button 3
+        button.tall +
+      .row
+        button 0
+        button .
+        button =
