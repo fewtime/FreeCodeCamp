@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title Pomodoro Timer
+    link(rel="stylesheet" type="text/css" href="style.css")
+    // link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+    script(src="http://cdn.bootcss.com/jquery/2.2.0/jquery.min.js")
+    script(src="index.js")
+  body
+    h1#title Pomodoro Timer
+
+    .controller
+      .breakController
+        p BREAK LENGTH
+        button#breakDecrease -
+        span#breakLength #BreakLength
+        button#breakIncrease +
+      .sessionController
+        p SESSION LENGTH
+        button#sessionDecrease -
+        span#sessionLength #SessionLength
+        button#sessionIncrease +
+  
+    .display
+      p#currentState #CurrentState
+      p#currentTime #CurrentTime
+    
+    .switch
+      button#start Start
+      button#stop Stop
+      button#reset Reset

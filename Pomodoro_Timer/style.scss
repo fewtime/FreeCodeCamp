@@ -1,0 +1,91 @@
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+
+$black: #333333;
+$white: #FFFFFF;
+$dark_green: #006400;
+$dark_cyan: #008B8B;
+$dark_red: #8B0000;
+
+body {
+    width: 100%;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    margin: 0px 10px 0px 10px;
+    background-color: $black;
+    border-color: $black;
+    color: $white;
+    border-radius: 50px;
+    font-size: 1em;
+    disabled: false;
+}
+
+#title {
+    margin: 10px auto;
+    background-color: $black;
+    color: $white;
+    font-family: "Pacifico";
+    font-size: 5.2em;
+}
+
+.controller {
+    font-size: 1.2em;
+    font-family: "Open Sans";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: $black;
+    color: $white;
+    margin: 10px auto;
+    .breakController, .sessionController{
+        display: inline;
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+.display {
+    font-size: 2.4em;
+    font-family: "Open Sans";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: $black;
+    color: $white;
+    margin: 10px auto;
+    #currentState, #currentTime{
+        display: inline;
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+.switch {
+    margin: 10px auto;
+    text-align: center;
+    justify-content: space-between;
+    background-color: $black;
+    color: $white;
+
+    #start {
+        width: 80px;
+        height: 40px;
+        background-color: $dark_green;
+    }
+
+    #stop {
+        width: 80px;
+        height: 40px;
+        background-color: $dark_red;
+    }
+
+    #reset {
+        width: 80px;
+        height: 40px;
+        background-color: $dark_cyan;
+    }
+}
