@@ -1,0 +1,57 @@
+
+# Created by https://www.gitignore.io/api/sass
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+
+# Created by https://www.gitignore.io/api/emacs
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+
+
+# Created by https://www.gitignore.io/api/vim
+
+### Vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### Tern-port
+.tern-port/
