@@ -1,0 +1,79 @@
+// Fonts
+@import url("http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300");
+
+$white: #FFFFFF;
+$peru: #CD853F;
+$golden_rod: #DAA520;
+$grey: #808080;
+
+body {
+    width: 100%;
+    background-image: url("https://static.pexels.com/photos/36358/pexels-photo.jpg");
+    text-align: center;
+}
+
+#title {
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Pacifico';
+    color: $golden_rod;
+}
+
+#iconAndTemp {
+    font-size: 2em;
+    font-family: "Open Sans";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: none;
+    color: $white;
+    margin: 15px auto;
+
+    #icon {
+        width: 40px;
+        height: 30px;
+    }
+
+    #icon, #temp {
+        display: inline;
+        margin: 0px 20px;
+    }
+
+    #convert {
+        background-color: $golden_rod;
+        color: $white;
+        border-radius: 50%;
+        border-color: none;
+    }
+}
+
+#locationAndWeatherDetails {
+    font-size: 1.8em;
+    font-family: "Open Sans";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: none;
+    color: $golden_rod;
+    margin: 45px auto;
+
+    #location, #description, #humidity, #pressure, #wind {
+        display: inline;
+        margin: 0px 20px;
+    }
+
+    .detail {
+        background-color: $white;
+        border: none;
+        opacity: 0.5;
+        filter: alpha(opacity=50); //For IE8 or earlier
+        border-radius: 5px;
+        box-shadow: 10px 5px 5px $grey;
+    }
+
+    #locationFlag {
+        width: 40px;
+        height: 30px;
+    }
+}

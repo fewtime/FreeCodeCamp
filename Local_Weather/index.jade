@@ -1,0 +1,24 @@
+doctype html
+html
+
+  head
+    title Local Weather
+    link(rel="stylesheet" type="text/css" href="style.css")
+    script(src="http://cdn.bootcss.com/jquery/2.2.0/jquery.min.js")
+    script(src="index.js")
+
+  body
+    h1#title Local Weather
+    
+    #iconAndTemp
+      img#icon
+      #temp
+      button#convert Convert
+  
+    #locationAndWeatherDetails
+      #location.detail
+        img#locationFlag
+      #description.detail
+      //#humidity.detail
+      //#pressure.detail
+      #wind.detail

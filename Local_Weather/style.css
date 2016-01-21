@@ -1,0 +1,58 @@
+@import url("http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300");
+body {
+  width: 100%;
+  background-image: url("https://static.pexels.com/photos/36358/pexels-photo.jpg");
+  text-align: center; }
+
+#title {
+  margin: 0px 10px 0px 10px;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Pacifico';
+  color: #DAA520; }
+
+#iconAndTemp {
+  font-size: 2em;
+  font-family: "Open Sans";
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: none;
+  color: #FFFFFF;
+  margin: 15px auto; }
+  #iconAndTemp #icon {
+    width: 40px;
+    height: 30px; }
+  #iconAndTemp #icon, #iconAndTemp #temp {
+    display: inline;
+    margin: 0px 20px; }
+  #iconAndTemp #convert {
+    background-color: #DAA520;
+    color: #FFFFFF;
+    border-radius: 50%;
+    border-color: none; }
+
+#locationAndWeatherDetails {
+  font-size: 1.8em;
+  font-family: "Open Sans";
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: none;
+  color: #DAA520;
+  margin: 45px auto; }
+  #locationAndWeatherDetails #location, #locationAndWeatherDetails #description, #locationAndWeatherDetails #humidity, #locationAndWeatherDetails #pressure, #locationAndWeatherDetails #wind {
+    display: inline;
+    margin: 0px 20px; }
+  #locationAndWeatherDetails .detail {
+    background-color: #FFFFFF;
+    border: none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #808080; }
+  #locationAndWeatherDetails #locationFlag {
+    width: 40px;
+    height: 30px; }
+
+/*# sourceMappingURL=style.css.map */
