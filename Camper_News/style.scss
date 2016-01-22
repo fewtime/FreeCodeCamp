@@ -1,0 +1,71 @@
+// Fonts
+@import url("http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300");
+
+$light_salmon: #F5DEB3;
+$sienna: #A0522D;
+$silver: #808080;
+$steel_blue: #4682B4;
+$white: #FFFFFF;
+
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body {
+    background-color: $light_salmon;
+    #container {
+        .heading {
+            #title {
+                color: $sienna;
+                font-size: 3em;
+                font-family: 'Pacifico';
+            }
+
+            #subtitle {
+                color: $silver;
+                font-size: 2em;
+                font-family: 'Open Sans';
+            }
+        }
+
+        #posts {
+            width: 90%;
+            position: relative;
+
+            .post {
+                // display: inline-block;
+                width: 200px;
+                height: auto;
+                float: left;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 10px;
+
+                .author-photo {
+                    width: 200px;
+                    height: 200px;
+                    // margin: auto auto auto auto;
+                    border-top-left-radius: 10%;
+                    border-top-right-radius: 10%;
+                }
+
+                .post-info {
+                    text-align: left;
+                    background-color: $white;
+
+                    .post-title {
+                        color: $steel_blue;
+                        font-weight: bold;
+                    }
+
+                    .post-author {
+                        color: $steel_blue;
+                        text-align: right;
+                    }
+
+                }
+            }
+        }
+    }
+}

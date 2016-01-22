@@ -1,0 +1,41 @@
+@import url("http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300");
+* {
+  margin: 0px auto;
+  padding: 0px auto; }
+
+body {
+  background-color: #F5DEB3; }
+  body #container .heading #title {
+    color: #A0522D;
+    font-size: 3em;
+    font-family: 'Pacifico'; }
+  body #container .heading #subtitle {
+    color: #808080;
+    font-size: 2em;
+    font-family: 'Open Sans'; }
+  body #container #posts {
+    width: 90%;
+    position: relative; }
+    body #container #posts .post {
+      width: 200px;
+      height: auto;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px; }
+      body #container #posts .post .author-photo {
+        width: 200px;
+        height: 200px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%; }
+      body #container #posts .post .post-info {
+        text-align: left;
+        background-color: #FFFFFF; }
+        body #container #posts .post .post-info .post-title {
+          color: #4682B4;
+          font-weight: bold; }
+        body #container #posts .post .post-info .post-author {
+          color: #4682B4;
+          text-align: right; }
+
+/*# sourceMappingURL=style.css.map */
